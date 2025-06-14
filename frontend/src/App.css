@@ -93,9 +93,7 @@ main {
 
 
 
-/* ===========================
-   📱 Mobile Responsiveness
-   =========================== */
+
 @media screen and (max-width: 768px) {
   .scrollable-section {
     flex-direction: column;
