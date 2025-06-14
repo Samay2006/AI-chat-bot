@@ -14,10 +14,10 @@ app.use(express.static("public"))//it store use info like pdf and img in our loc
 
 app.use(cookieParser())//it help  us to access the user cookie in our local device(server) and perform the operation on it
 
-import routers from "./router/api.js"
+import routers from "./router/ai.router.js"
 
-app.use("/api/v1/user/",routers)
-
+app.use("/api/v1/ai/",routers)
+// http://localhost:7000/api/v1/ai/responce
 // app.use("/api/v1/search",)
 
 export{app}

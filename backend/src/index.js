@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config({
     path:"../.env"
 })
-console.log()
+// console.log()
 database().
 then(()=>{
 app.listen(7000,()=>{
